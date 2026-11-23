@@ -1,0 +1,15 @@
+:root {
+  color-scheme: light;
+  font: 100%/1.6 system-ui, sans-serif;
+  color: #173b35;
+  background: #edf8f0;
+}
+body { margin: 0; }
+main { width: min(42rem, calc(100% - 3rem)); margin: 2rem auto 4rem; }
+h1, h2 { line-height: 1.17; }
+nav, section { margin-block: 1.4rem; }
+nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+section { padding: 1.2rem 1.5rem; background: #fffef6; border: 1px solid #bedaca; border-radius: 1rem; }
+section h2:first-child { margin-top: 0; }
+section p:last-child { margin-bottom: 0; }
+a { color: #165947; text-underline-offset: .18em; }
